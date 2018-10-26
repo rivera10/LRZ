@@ -12,7 +12,7 @@ ssh yourusername@lxlogin8.lrz.de
 5- Type your password.  
 
 6- You are connected and message will be printed to the screen.  
-```bash
+```
   Welcome to the CoolMUC3 KNL/Omnipath cluster, one of the Linux cluster 
   systems operated by Leibniz Supercomputing Centre (LRZ).  
   Please read the introductory documentation on the LRZ web site
