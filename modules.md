@@ -43,4 +43,6 @@ module load matlab/R2018A
 ```   
 
 ## Installing modules
-The process of installing the modules is done by the system administrator. If you need a program or new version send them a message. Most supercomputing center have a special email or process to ask for new programs. It should be noted that not all the programs that you need can be installed in the system. For such cases you may need to install the program [locally](/locally.md) or using tools like conda. 
+The process of installing the modules is done by the system administrator. If you need a program or new version send them a message. Most supercomputing center have a special email or process to ask for new programs. It should be noted that not all the programs that you need can be installed in the system. For such cases you may need to install the program [locally](/locally.md) or using tools like conda. Also, sometimes is better to test the tool to see if it is worth to be install as a module in the system (test using [local](/locally.md) installation).
+
+
