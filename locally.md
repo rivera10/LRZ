@@ -45,7 +45,15 @@ Now when you type the name of your variable using a `$` before the name the prog
 ```bash
 $myprogram
 ```  
-Note: This variable is not going to be available save for future session. If you log out and in you will not have it anymore.
+Note: This variable is not going to be available save for future session. If you log out and in you will not have it anymore.  
 
+## Using conda  
+Directly from their [webpage](https://conda.io/docs/)
+"Conda is an open source package management system and environment management system that runs on Windows, macOS and Linux."  
 
+It is a very useful tool, specially becasue you can use conda to install locally. Is that the case, "why I need to bother in learning how to install locally" you may say. Simply, not all the programs are in conda. However, you will see that the common are available and constantöy more programs are added.    
+
+Here we are not going to explain how to install conda since the documentation provided in their page is very detailed and step by step. We are going to show  you how install programs when  you already have conda (or miniconda).  Here is a conda [cheat sheet](https://conda.io/docs/_downloads/conda-cheatsheet.pdf) for reference too.  
+
+1- Check in the [repositories](https://anaconda.org/anaconda/repo) if your program is available.  
 
