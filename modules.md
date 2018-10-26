@@ -2,7 +2,7 @@
 Some, if not the majority of the supercomputing centers, install programs and make them available by modules. This is done specially so resource management programs could allocate computational tasks and run the programs without crashing the server (*e.g.* [PBS](https://www.pbspro.org/), [SLURM](https://slurm.schedmd.com/)). 
 
 ## Verify what modules are installed
-First, cehck is the program (module) you need is already installed. Type:   
+First, check is the program (module) you need is already installed. Type:   
 ```bash
 module avail
 ```   
@@ -14,10 +14,10 @@ ansys/19.0           cfx/19.0           comsol/5.4(default)  fluent/19.2(default
 ansys/19.1           cfx/19.1           fluent/18.2          gamess/2018-02(default)    icem/19.1                mathematica/11.3(default)  matlab/R2018A_MCR         openfoam/v1806+(default)  R/3.3.2(default)        turbomole/7.3(default)       wien2k/17.1(default)    
 ansys/19.2(default)  cfx/19.2(default)  fluent/19.0          gaussian/16.B.01(default)  icem/19.2(default)       matlab/R2017B              mscnastran/2018(default)  openfoam/v1806+_knl       schrodinger/2017-4      vasp/5.4(default)
 ```   
-This is part of the output we get after running the command. As you can see we have many programs installed with their versions. In some cases we have a program with different version becasue you may have tools using old versions and do not suport new updates.  
+This is part of the output we get after running the command. As you can see we have many programs installed with their versions. In some cases we have a program with different versions. This is becasue you may have tools using old versions and do not suport new updates.  
 
 ## Loading the modules
-Let's sa that you found the module you were looking for. Now you just need to call (load) your module. Let's call the module matlab/R2017B 
+Let's say that you found the module you were looking for. Now you just need to call (load) your module. Let's call the module matlab/R2017B 
 ```bash
 module load matlab/R2017B 
 ```  
@@ -25,7 +25,7 @@ Now matlab is loaded and ready to be use. Type `mat` and use the autocomplet (TA
 ```bash
 matcher   matlab    matopts
 ```  
-You can type `matlab` and if you are using tunneling (-X or -Y depending on the system) a window will open with the GUI of matlab.
+You can type `matlab` and if you are using tunneling (-X or -Y depending on the system). A window will open with the GUI of matlab.
 
  If the module is not loaded you will not see the program when you type `matlab` and you will se a messager like this when trying to call the program.  
 ```bash
