@@ -56,6 +56,7 @@ It is a very useful tool, specially becasue you can use conda to install locally
 Here we are not going to explain how to install conda since the documentation provided in their page is very detailed and step by step. We are going to show  you how install programs when  you already have conda (or miniconda).  Here is a conda [cheat sheet](https://conda.io/docs/_downloads/conda-cheatsheet.pdf) for reference too.  
 
 1- Check in the [repositories](https://anaconda.org/anaconda/repo) if your program is available.  
+
 ![](https://i.imgur.com/SXscRwF.png)  
 
 2- In this example we are interested on installing [ABySS](http://www.bcgsc.ca/platform/bioinfo/software/abyss) (genome assembly program).  
