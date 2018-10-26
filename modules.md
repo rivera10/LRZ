@@ -4,7 +4,7 @@ Some, if not the majority of the supercomputing centers, install programs and ma
 ### Verify what modules are installed
 First, cehck is the program (module) you need is already installed. Type:   
 ```bash
-user@mycluster ~ $ module avail
+module avail
 ```   
 You will see are the programs currently available in the system.   
 ```
