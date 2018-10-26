@@ -7,7 +7,16 @@
 ```bash
 ssh yourusername@lxlogin8.lrz.de
 ```    
-4- If connecting for the first time type y in the message it will appear.
+4- If connecting for the first time a message like this will appear.  
+```
+The authenticity of host '128.199.138.34 (128.199.138.34)' can't be established.
+RSA key fingerprint is 90:8c:7d:f8:ae:1a:09:60:44:08:3b:d9:c9:f7:c4:76.
+Are you sure you want to continue connecting (yes/no)?
+```  
+Type yes  
+```
+Warning: Permanently added '128.199.138.34' (RSA) to the list of known hosts.
+```  
 
 5- Type your password.  
 
