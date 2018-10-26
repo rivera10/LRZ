@@ -58,7 +58,8 @@ Here we are not going to explain how to install conda since the documentation pr
 1- Check in the [repositories](https://anaconda.org/anaconda/repo) if your program is available.  
 
 ![](https://i.imgur.com/SXscRwF.png)  
-
+.  
+.  
 2- In this example we are interested on installing [ABySS](http://www.bcgsc.ca/platform/bioinfo/software/abyss) (genome assembly program).  
 
 ![](https://i.imgur.com/m1lIQXw.png)  
