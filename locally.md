@@ -60,9 +60,11 @@ Here we are not going to explain how to install conda since the documentation pr
 ![](https://i.imgur.com/SXscRwF.png)  
 
 2- In this example we are interested on installing [ABySS](http://www.bcgsc.ca/platform/bioinfo/software/abyss) (genome assembly program).  
+
 ![](https://i.imgur.com/m1lIQXw.png)  
 
 3- You will have a couple of options. We are interested only in ABySS for now and not transABySS (trasncriptome assembly). Let's take the first option since is the last update and most downloaded (thats a good sign).  
+
 ![](https://i.imgur.com/nGs05UL.png)  
 
 4- As you can see in the photo above the page is telling what you need to do to install ABySS using conda.
