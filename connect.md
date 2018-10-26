@@ -73,7 +73,11 @@ Save and close the file.
 source ~/.bashrc
 ```  
 
-##
+##  Working on the terminal
+Now that you are connected to the terminal and have the PATH for the programs you can go to the next section.  
+[Next section]()
+
+
 
 
 
