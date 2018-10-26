@@ -56,4 +56,39 @@ It is a very useful tool, specially becasue you can use conda to install locally
 Here we are not going to explain how to install conda since the documentation provided in their page is very detailed and step by step. We are going to show  you how install programs when  you already have conda (or miniconda).  Here is a conda [cheat sheet](https://conda.io/docs/_downloads/conda-cheatsheet.pdf) for reference too.  
 
 1- Check in the [repositories](https://anaconda.org/anaconda/repo) if your program is available.  
+![](https://i.imgur.com/SXscRwF.png)  
+
+2- In this example we are interested on installing [ABySS](http://www.bcgsc.ca/platform/bioinfo/software/abyss) (genome assembly program).  
+![](https://i.imgur.com/m1lIQXw.png)  
+
+3- You will have a couple of options. We are interested only in ABySS for now and not transABySS (trasncriptome assembly). Let's take the first option since is the last update and most downloaded (thats a good sign).  
+![](https://i.imgur.com/nGs05UL.png)  
+
+4- As you can see in the photo above the page is telling what you need to do to install ABySS using conda.
+```bash
+ conda install -c bioconda abyss 
+ ```  
+ 
+ Automatically conda will show you the programs that is going to install (*i.e.* ABySS and its dependencies). Accept this by typing `y` and the program will install.  
+ 
+ **NOTE:** When installing multiplem programs the version of their dependencies could be different. Sometimes you will see messages like this:  
+```bash
+The following packages will be UPDATED:
+
+    blast:        2.6.0-boost1.60_0  bioconda --> 2.6.0-boost1.61_1 bioconda
+
+The following packages will be DOWNGRADED due to dependency conflicts:
+
+    augustus:     3.2.3-boost1.60_0  bioconda --> 3.2.2-boost1.61_3 bioconda
+    
+```  
+
+This could make some tools not to work because of different versions that they may need. A solution for that is either create conda [enviroments.](https://conda.io/docs/user-guide/getting-started.html#managing-environments)  
+
+
+
+
+
+
+
 
