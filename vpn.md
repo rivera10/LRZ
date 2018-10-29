@@ -14,7 +14,7 @@ Please use the AnyConnect client ( http://www.lrz.de/services/netz/mobil/vpn/any
 
 - Mac OS X 10.6 (Snow Leopard).
 
-Mac OS X 10.6 (Snow Leopard) has a built-in Cisco IPsec client. A profile for this client is available on the [download](https://www.lrz.de/services/netz/mobil/vpnclient)page.
+Mac OS X 10.6 (Snow Leopard) has a built-in Cisco IPsec client. A profile for this client is available on the [download](https://www.lrz.de/services/netz/mobil/vpnclient) page.
 
 - Mac OS X 10.5 (Leopard) and older:
 
