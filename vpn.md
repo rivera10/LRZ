@@ -51,14 +51,14 @@ The connection is terminated by clicking on "Disconnect".
 
  
 
-command line
+**Command line**  
 The client can also be started from the command line
 
 ```bash
 vpnclient connect lrz
 ```
 
-Internet ID and password are queried. The call without parameters provides a short help:
+Internet ID and password are required. The call without parameters provides a short help:
 
 [macclient: ~] vpnclient 
 Cisco Systems VPN Client Release 4.9.01 (0030) 
@@ -88,30 +88,30 @@ The Cisco VPN client program for Windows can be installed on the Windows 98, 98S
 **Download the client software**
 Enter your user ID and password on the https://www.lrz.de/services/netz/mobil/vpnclient page and then click on the download page . Click on the button Windows on the appearing page . Select a directory, eg C: \ tmp and click Save . Then download the LRZ profile for an existing client from the same page (penultimate link on the page), eg save the file lrz.pcf to C: \ tmp.
 
-**Installation**
-Close (really) all other running applications, the installation of the client goes deeper into the system than other program installations. Disruptions are pretty easy here.  
+**Installation**  
+Close (really) all other running applications, the installation of the client goes deeper into the system than other program installations. Disruptions are pretty easy here.    
 
-Start the Windows Explorer and unpack the file vpnclient-win-msi-5.0.03.0530-k9.exe (name different for other versions) by double-clicking on the file name. Administrator rights are required for the installation. After unpacking the installation starts automatically.  
+Start the Windows Explorer and unpack the file vpnclient-win-msi-5.0.03.0530-k9.exe (name different for other versions) by double-clicking on the file name. Administrator rights are required for the installation. After unpacking the installation starts automatically.    
 
-**Attention: Leave the default installation directory, a change can lead to a faulty installation.**  
+**Attention: Leave the default installation directory, a change can lead to a faulty installation.**    
+  
+Confirm the next windows with Next or Yes . After the appearance and disappearance of some other windows finally comes the request to restart the computer.  
 
-Confirm the next windows with Next or Yes . After the appearance and disappearance of some other windows finally comes the request to restart the computer.
+**Import profile**  
+After the restart, start the client  
 
-Import profile
-After the restart, start the client
-
-*Start*-> *Programs*-> *LRZ VPN Client*-> *VPN Client*. In the program window
+*Start*-> *Programs*-> *LRZ VPN Client*-> *VPN Client*. In the program window  
 
 ![](https://i.imgur.com/7KCQjOx.png)  
 
-select Import from the Connection Entries menu and set the location of the previously downloaded lrz.pcf file.  
+select Import from the Connection Entries menu and set the location of the previously downloaded lrz.pcf file.    
 
-**Conecction**
-![](https://i.imgur.com/4qZLcpr.png)
+**Conecction**  
+![](https://i.imgur.com/4qZLcpr.png)  
  
-To connect, click on the Connect button.    
+To connect, click on the Connect button.      
 
-The window for entering the user ID and the password appears.   
+The window for entering the user ID and the password appears.     
 
 
 ![](https://i.imgur.com/hMrFIlK.png)
@@ -120,11 +120,11 @@ The window for entering the user ID and the password appears.
 Enter your ID (7-digit LRZ identifier, name@tum.de , name@campus.lmu.de or radius identifier @ otherzone ) and click OK . 
 After a few seconds, the window should disappear, then the VPN connection is ready. However, a small yellow icon (padlock) remains  visible in the tray area of the status bar (bottom right of the screen). By double-clicking on this icon, the client window can be opened again at any time.  
 
-To end the VPN connection, right-click on the tray icon and select disconnect.   
+To end the VPN connection, right-click on the tray icon and select disconnect.    
 
-![](https://i.imgur.com/Q7qG9lu.png)
+![](https://i.imgur.com/Q7qG9lu.png)  
 
-For more information, see the help documentation included with the program (Help menu, English) and the LRZ FAQs at http://www.lrz.de/fragen/faq/#vpn .
+For more information, see the help documentation included with the program (Help menu, English) and the LRZ FAQs at http://www.lrz.de/fragen/faq/#vpn.   
 
 
 
