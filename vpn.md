@@ -1,6 +1,6 @@
 # Configuring the VPN for connecting to the LRZ
-
-### Mac Installation
+**NOTE:** Instructiosn as showend in ther LRZ [webpage](https://www.lrz.de/services/netz/mobil/vpn/).(In German)  
+## Mac Installation
 - VPN with Mac OS X
 Cisco VPN Client for Mac OS
 System requirements:
@@ -78,7 +78,56 @@ vpnclient autoinit
 ```
 Remove the client
 
-You can remove the client by calling the sudo vpn_uninstall command on the command line.
+You can remove the client by calling the sudo vpn_uninstall command on the command line.  
+
+
+## Windows Installation
+**VPN (IPsec) under Windows**
+The Cisco VPN client program for Windows can be installed on the Windows 98, 98SE, ME, NT4 (SP6a), 2000, XP, Vista, and Windows 7 (32-bit) systems only. For 64-bit systems, only the [Anyconnect client](https://www.lrz.de/services/netz/mobil/vpn/anyconnect/) can be used. For systems with less than 256 MB of main memory, please use version 4.0.5C.
+
+**Download the client software**
+Enter your user ID and password on the https://www.lrz.de/services/netz/mobil/vpnclient page and then click on the download page . Click on the button Windows on the appearing page . Select a directory, eg C: \ tmp and click Save . Then download the LRZ profile for an existing client from the same page (penultimate link on the page), eg save the file lrz.pcf to C: \ tmp.
+
+**Installation**
+Close (really) all other running applications, the installation of the client goes deeper into the system than other program installations. Disruptions are pretty easy here.  
+
+Start the Windows Explorer and unpack the file vpnclient-win-msi-5.0.03.0530-k9.exe (name different for other versions) by double-clicking on the file name. Administrator rights are required for the installation. After unpacking the installation starts automatically.  
+
+**Attention: Leave the default installation directory, a change can lead to a faulty installation.**  
+
+Confirm the next windows with Next or Yes . After the appearance and disappearance of some other windows finally comes the request to restart the computer.
+
+Import profile
+After the restart, start the client
+
+*Start*-> *Programs*-> *LRZ VPN Client*-> *VPN Client*. In the program window
+
+![](https://i.imgur.com/7KCQjOx.png)  
+
+select Import from the Connection Entries menu and set the location of the previously downloaded lrz.pcf file.  
+
+**Conecction**
+![](https://i.imgur.com/4qZLcpr.png)
+ 
+To connect, click on the Connect button.    
+
+The window for entering the user ID and the password appears.   
+
+
+![](https://i.imgur.com/hMrFIlK.png)
+
+
+Enter your ID (7-digit LRZ identifier, name@tum.de , name@campus.lmu.de or radius identifier @ otherzone ) and click OK . 
+After a few seconds, the window should disappear, then the VPN connection is ready. However, a small yellow icon (padlock) remains  visible in the tray area of the status bar (bottom right of the screen). By double-clicking on this icon, the client window can be opened again at any time.  
+
+To end the VPN connection, right-click on the tray icon and select disconnect.   
+
+![](https://i.imgur.com/Q7qG9lu.png)
+
+For more information, see the help documentation included with the program (Help menu, English) and the LRZ FAQs at http://www.lrz.de/fragen/faq/#vpn .
+
+
+
 
 
 
