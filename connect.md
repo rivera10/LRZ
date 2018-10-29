@@ -5,7 +5,8 @@ Before conecting to the LRZ you need to have a VPN, specific address and your pa
 For more info about the setting the VPN click [here]().  
 
 After connected to the VPN you are ready to connect to the LRZ.  
-1- Review the info of the LRZ about the available [cluster.](https://www.lrz.de/services/compute/linux-cluster/overview/)   
+1- Review the info of the LRZ about the available [cluster.](https://www.lrz.de/services/compute/overview/)  
+We are goin to be working on the LRZ Linux [Cluster](https://www.lrz.de/services/compute/linux-cluster/overview/).  
 2- Select the desire cluster to connect. Here we are going to connect to lxlogin8.lrz.de      
 3- Connect using Terminal or other similar program.  
 ```bash
