@@ -20,7 +20,7 @@ Mac OS X 10.6 (Snow Leopard) has a built-in Cisco IPsec client. A profile for th
 
 The Cisco VPN client only runs on the operating system version of Mac OS X 10.1.5. Under the apple there is the menu item About this Mac , with which one can query the version of Mac OS X. For users who still only use Mac OS 9, there is no more client (There was a client of Netlock for $ 114 (as of 08-2003))  
 
-How do I get the VPN client?  
+**How do I get the VPN client?**
 The Cisco VPN client and the required lrz.pcf profile can be downloaded from the Leibniz Data Center web server at the following URL: [https://www.lrz.de/services/netz/mobil/vpnclient/] . On this page you have to authenticate yourself with a valid identifier (eg LRZ, MyTUM, CamusLMU) and then get to the download page. Since the installation program is about 14 megabytes in size, we recommend a fast internet connection (estimated download times 56k: 30 min, ISDN: 15 min, DSL: 2 min).  
 
 **Installation of the VPN client:**   
@@ -35,17 +35,17 @@ A double-click opens a window containing the installation program (Cisco VPN Cli
 After authentication to the system, the installation can be started.    
 
 **Use of the VPN client**  
-![](https://i.imgur.com/9wypxRR.png)
+![](https://i.imgur.com/9wypxRR.png)  
 
 After installation, the Cisco VPN client is in the Applications folder. Double-click to start the VPN client. If there is not the entry lrz, then Profli lrz.pcf , which can be downloaded on the same page as the client can still be installed. To do this extends the window of the VPN client by pressing the keyboard shortcut Command + M . Now you can click the icon Impor t click and lrz.pcf import the file. After pressing Command + M again , the window looks like shown below.    
-![](https://i.imgur.com/ikx6FOU.png)
+![](https://i.imgur.com/ikx6FOU.png)  
 
 With the installed profile "LRZ" a secure connection to the VPN server of the Leibniz data center can be established. Click on the profile and choose "Connect".  
 
-![](https://i.imgur.com/ryBgBJv.png)
-
+![](https://i.imgur.com/ryBgBJv.png)  
+ 
 After a short negotiation phase, the login mask appears, in which the Internet ID and password must be entered.   
-![](https://i.imgur.com/nohzIbt.png)
+![](https://i.imgur.com/nohzIbt.png)  
 
 The connection is terminated by clicking on "Disconnect".  
 
