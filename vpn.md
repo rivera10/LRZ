@@ -1,7 +1,7 @@
 # Configuring the VPN for connecting to the LRZ
 **NOTE:** Instructions translated from the LRZ [webpage](https://www.lrz.de/services/netz/mobil/vpn/).(In German)    
 ## Mac Installation
-- VPN with Mac OS X
+VPN with Mac OS X
 Cisco VPN Client for Mac OS
 System requirements:
 - OS X 10.11 (El Capitan)
