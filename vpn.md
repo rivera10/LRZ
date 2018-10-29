@@ -33,7 +33,7 @@ A double-click opens a window containing the installation program (Cisco VPN Cli
 After authentication to the system, the installation can be started.    
 
 **Use of the VPN client**  
-https://i.imgur.com/9wypxRR.png
+![]https://i.imgur.com/9wypxRR.png
 
 After installation, the Cisco VPN client is in the Applications folder. Double-click to start the VPN client. If there is not the entry lrz, then Profli lrz.pcf , which can be downloaded on the same page as the client can still be installed. To do this extends the window of the VPN client by pressing the keyboard shortcut Command + M . Now you can click the icon Impor t click and lrz.pcf import the file. After pressing Command + M again , the window looks like shown below.    
 https://i.imgur.com/ikx6FOU.png
