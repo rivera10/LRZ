@@ -36,14 +36,15 @@ After authentication to the system, the installation can be started.
 ![](https://i.imgur.com/9wypxRR.png)
 
 After installation, the Cisco VPN client is in the Applications folder. Double-click to start the VPN client. If there is not the entry lrz, then Profli lrz.pcf , which can be downloaded on the same page as the client can still be installed. To do this extends the window of the VPN client by pressing the keyboard shortcut Command + M . Now you can click the icon Impor t click and lrz.pcf import the file. After pressing Command + M again , the window looks like shown below.    
-https://i.imgur.com/ikx6FOU.png
+![](https://i.imgur.com/ikx6FOU.png)
 
 With the installed profile "LRZ" a secure connection to the VPN server of the Leibniz data center can be established. Click on the profile and choose "Connect".  
 
-https://i.imgur.com/ryBgBJv.png
+![](https://i.imgur.com/ryBgBJv.png)
 
 After a short negotiation phase, the login mask appears, in which the Internet ID and password must be entered.   
-https://i.imgur.com/nohzIbt.png
+![](https://i.imgur.com/nohzIbt.png)
+
 The connection is terminated by clicking on "Disconnect".  
 
  
@@ -77,5 +78,6 @@ Remove the client
 
 You can remove the client by calling the sudo vpn_uninstall command on the command line.
 
-![](https://i.imgur.com/nohzIbt.png)
+
+
 
