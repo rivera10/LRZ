@@ -9,9 +9,10 @@ ssh yourusername@lxlogin8.lrz.de
 ```    
 4- If connecting for the first time a message like this will appear.  
 ```
-The authenticity of host '128.199.138.34 (128.199.138.34)' can't be established.
-RSA key fingerprint is 90:8c:7d:f8:ae:1a:09:60:44:08:3b:d9:c9:f7:c4:76.
-Are you sure you want to continue connecting (yes/no)?
+The authenticity of host 'lxlogin8.lrz.de (129.187.20.108)' can't be established.
+ECDSA key fingerprint is SHA256:vHqDmlUfo9ePs2liGPmTmawj67aQVqR9GYxbsagaWPA.
+Are you sure you want to continue connecting (yes/no)? 
+
 ```  
 Type yes  
 ```
