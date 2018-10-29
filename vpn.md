@@ -1,5 +1,5 @@
 # Configuring the VPN for connecting to the LRZ
-**NOTE:** Instructiosn as showend in ther LRZ [webpage](https://www.lrz.de/services/netz/mobil/vpn/).(In German)  
+**NOTE:** Instructions translated from the LRZ [webpage](https://www.lrz.de/services/netz/mobil/vpn/).(In German)    
 ## Mac Installation
 - VPN with Mac OS X
 Cisco VPN Client for Mac OS
