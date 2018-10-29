@@ -24,9 +24,11 @@ How do I get the VPN client?
 The Cisco VPN client and the required lrz.pcf profile can be downloaded from the Leibniz Data Center web server at the following URL: [https://www.lrz.de/services/netz/mobil/vpnclient/] . On this page you have to authenticate yourself with a valid identifier (eg LRZ, MyTUM, CamusLMU) and then get to the download page. Since the installation program is about 14 megabytes in size, we recommend a fast internet connection (estimated download times 56k: 30 min, ISDN: 15 min, DSL: 2 min).  
 
 **Installation of the VPN client:**   
-https://i.imgur.com/6RMI5CL.png
+![](https://i.imgur.com/6RMI5CL.png)
+
 Double-clicking the mwn-vpnclient-macosx-4.9.01.0180-universal.dmg file (4.9.01.0180 refers to the version number) creates the CiscoVPNClient drive on the Finder Desktop.    
-https://i.imgur.com/05DqAg6.png
+
+![](https://i.imgur.com/05DqAg6.png)
 
 A double-click opens a window containing the installation program (Cisco VPN Client.mpkg) and two folders. Double-clicking Cisco VPN Client.mpkg starts the installation. After installation, the disk image can be ejected and the .dmg file deleted. "    
 
