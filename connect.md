@@ -44,7 +44,7 @@ Warning: Permanently added '128.199.138.34' (RSA) to the list of known hosts.
 ## Where are the programs?
 All the programms are installed in a specific folder to avoid duplications and waste of time. Each cluster can have different ways to run the programs. Here we are going to show how to run programs already installed for our use.  
 
-**NOTE: This will not in other systems (*e.g.* different PATH, or using modules)**
+**NOTE: This will not work in other systems (*e.g.* different PATH, or using modules)**
 
 If your system use modules click [here.](/modules.md)
 
