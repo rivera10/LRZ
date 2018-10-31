@@ -57,20 +57,20 @@ To learn how to install locally in your folder click [here](/locally.md)
 
 1- We installed all the programs we may need in this location.  
 ```
-/home/hpc/pn69xe/di29vos2/ignite_tools/bin
+/home/hpc/pn69xe/di29vos2/ignite_tools/
 ```   
 You need to add this to your PATH so each time you type the name of a program the system will now where to look for it.  
 
 2- Use a text editor to add the programs PATH to your `.bashrc` file. You can use nano, vim, or your favorite text editor. Make sure to be in your home folder. If not sure just type `cd` and you will get there.  
 
-3- Open the `.bashrc`. Note thet there is a `.` befroe the name. This mean is an invisible file. To learn more of this click [here.](invisible.md)  
+3- Open the `.bashrc`. Note thet there is a `.` before the name. This mean is a hidden file (also it can be a folder). To learn more of this click [here.](invisible.md)  
 ```
 nano .bashrc 
 ```   
 
 4- Add the following line to the end of the `.bashrc` file.  
 ```bash
-export PATH="$PATH:/home/hpc/pn69xe/di29vos2/ignite_tools/bin"   
+export PATH="$PATH:/home/hpc/pn69xe/di29vos2/ignite_tools/"   
 ```   
 Save and close the file.  
 
